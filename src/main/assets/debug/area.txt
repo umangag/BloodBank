@@ -1,0 +1,48 @@
+{
+  "Area": [{
+    "Name": "bangalore",
+    "Id": "123",
+    "Sub Area": [
+      {
+        "Name": "Kormangala",
+        "Id": "123",
+        "Sub Area": [
+          {
+            "Name": "1 block",
+            "Id": "12",
+            "Sub Area": [
+              {
+                "Name": "Main Road",
+                "Id": "12",
+                "Sub Area": null
+              }
+            ]
+          },
+          {
+            "Name": "2 block",
+            "Id": "129",
+            "Sub Area": null
+          }
+        ]
+      },
+      {
+        "Name": "Bellandur",
+        "Id": "1230",
+        "Sub Area": [
+          {
+            "Name": "9 block",
+            "Id": "12",
+            "Sub Area": null
+          },
+          {
+            "Name": "8 block",
+            "Id": "129",
+            "Sub Area": null
+          }
+        ]
+      }
+    ]
+  }],
+  "Message": true,
+  "Status": null
+}

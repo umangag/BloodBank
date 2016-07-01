@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.umang.bloodbank">
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <permission android:name="com.example.umang.bloodbank.permission.C2D_MESSAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="com.example.umang.bloodbank.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blood"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".mainfile"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".donorpage"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".thank_you"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".needpage"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".Signin"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".signup"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".account_created"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".donordetailslist"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".FullDetails"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".NorecordFound"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".aboutus"
+            android:screenOrientation="portrait"></activity>
+
+
+
+
+    </application>
+
+</manifest>
